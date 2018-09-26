@@ -35,7 +35,9 @@ import org.apache.tomcat.jdbc.pool.ClassLoaderUtil;
 
 /**
  * Simple way of configuring generic resources by using reflection.
+ * 使用反射配置通用资源的简单方法。
  * Example usage:
+ * 例子
  * <pre><code>
  * &lt;Resource factory=&quot;org.apache.tomcat.jdbc.naming.GenericNamingResourcesFactory&quot;
  *              name=&quot;jdbc/test&quot;
